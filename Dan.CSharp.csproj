@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -437,21 +431,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\2DPlatformerPro\ReleaseNotes.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\AlienSample\Art\ArtCredits-Alien.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\AlienSample\Variations\AlienVariations-READMEFIRST.txt" />
     <None Include="Assets\2DPlatformerPro\Samples\ComandBroSample\Art\ArtCredits-CommandBro.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\JetpackSample\Art\ArtCredits-Jetpack.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\JetpackSample\Variations\JetpackVariations-READMEFIRST.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\LoopyHamster\Art\ArtCredits-LoopyHamster.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\MiniSamples\MrSprite\Art\ArtCredits-MrSprite.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\PixtroidSample\Art\ArtCredits-Pixtroid.txt" />
-    <None Include="Assets\2DPlatformerPro\Samples\PixtroidSample\Variations\PixtroidVariations-READMEFIRST.txt" />
     <None Include="Assets\2DPlatformerPro\Samples\Shared\Resources\DefaultControllerInput.xml" />
     <None Include="Assets\2DPlatformerPro\Samples\Shared\Resources\DefaultKeyboardInput.xml" />
     <None Include="Assets\2DPlatformerPro\Samples\Shared\Resources\WASDKeyboardInput.xml" />
     <None Include="Assets\2DPlatformerPro\Samples\Shared\SpriteCutoutShader.shader" />
     <None Include="Assets\2DPlatformerPro\Samples\Shared\SpriteOpaqueShader.shader" />
-    <None Include="Assets\2DPlatformerPro\Tutorials\AttackTutorial\Art\ArtCredits-AttackTutorial.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

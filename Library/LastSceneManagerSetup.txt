@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/2DPlatformerPro/Samples/ComandBroSample/SampleMenu-CommandBro.unity
+  isLoaded: 1
+  isActive: 1

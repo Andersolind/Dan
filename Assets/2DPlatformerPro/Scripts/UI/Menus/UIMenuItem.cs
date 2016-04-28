@@ -78,9 +78,10 @@ namespace PlatformerPro.Extras
 				foreach (Character c in FindObjectsOfType<Character>()) c.AboutToExitScene (supportingString);
 				#if !UNITY_4_6 && !UNITY_5_1 && !UNITY_5_2
 				LevelManager.PreviousLevel = SceneManager.GetActiveScene().name;
-				SceneManager.LoadScene(supportingString);
+				SceneManager.LoadScene(supportingString);                   
 				#else
 				LevelManager.PreviousLevel = Application.loadedLevelName;
+                   
 				Application.LoadLevel(supportingString);
 				#endif
 				break;

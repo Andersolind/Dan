@@ -65,7 +65,7 @@ namespace PlatformerPro
                 //What scence am i on?
                 LevelManager.PreviousLevel = SceneManager.GetActiveScene().name;
              //   LevelManager.pre
-                SceneManager.LoadScene(supportingString);
+              //  SceneManager.LoadScene(supportingString);
             }
 
             /*
